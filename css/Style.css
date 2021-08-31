@@ -150,8 +150,8 @@ nav .container{
     justify-content: space-between;
     height: 6rem;
     align-items: center;
-    background-color:var(--light-three);
-    box-shadow: 0 2px 4px 0 #00000033, 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+ /*   background-color:var(--light-three);
+    box-shadow: 0 2px 4px 0 #00000033, 0 6px 20px 0 rgba(0, 0, 0, 0.1); */
 }
 
 .Logo{
@@ -293,13 +293,11 @@ nav .container{
 .row.row-cols-1.row-cols-md-3.g-4{
     padding:62px 62px;
     border-radius: 1rem;
-    align-items: center;
-    justify-content: center;
 }
 
-col .card.h-100 .card-body{
+.card.h-100{
+    
     align-items: center;
-    justify-content: center;
 }
 @media screen {
     
