@@ -150,6 +150,7 @@ nav .container{
     justify-content: space-between;
     height: 6rem;
     align-items: center;
+    
  /*   background-color:var(--light-three);
     box-shadow: 0 2px 4px 0 #00000033, 0 6px 20px 0 rgba(0, 0, 0, 0.1); */
 }
@@ -162,6 +163,7 @@ nav .container{
 
 .Link ul{
     display: flex;
+
 }
 
 .Link a{
@@ -173,6 +175,7 @@ nav .container{
     font-weight: 500;
     line-height: 1;
     transition: .3s;
+    text-decoration: none;
 }
  
 .Link a.active{
@@ -290,15 +293,8 @@ nav .container{
     margin:1.8rem 0;
 }
 */
-.row.row-cols-1.row-cols-md-3.g-4{
-    padding:62px 62px;
-    border-radius: 1rem;
-}
 
-.card.h-100{
-    
-    align-items: center;
-}
+
 @media screen {
     
 }
