@@ -616,11 +616,11 @@ nav .container{
 
     .container, header{
         position: relative;
-        z-index: 5;
+        /* z-index: 5; */
+        padding: 0;
         max-width: 92rem;
-        padding: 0rem;
-        margin-left: 1rem; 
-        margin-right: 1rem; 
+        margin-left: 1rem;
+        margin-right: 1rem;
         margin-bottom: 3rem; 
     }
   }
